@@ -3,7 +3,7 @@ import time
 import efPrediction as efp
 import fromFilePrediction as ffp
 
-print("Hello and welcome to TorPredict")
+print("Hello and welcome to Tornadics")
 time.sleep(2)
 print("An Application for predicting unofficial EF Scale values of tornadoes based on windspeed")
 time.sleep(1)
