@@ -10,4 +10,4 @@ If you wish to use a file make sure the first number is how many tornadoes you w
 [@zwos5](https://github.com/zwos5)
 
 ## License
-MIT © Brandon Zwosta 2023
+MIT © Brandon Zwosta 
