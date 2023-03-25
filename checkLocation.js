@@ -21,11 +21,11 @@ function checkLocation() {
     {
         if(tornadicCities.includes(city))
         {
-            document.form1.likelihood.value = "Location likely to experience tornadoes";
+            document.form1.likelihood.value = "Location likely to experience tornadoes.  Potential for full EF range.";
         }
         else 
         {
-            document.form1.likelihood.value = "Tornadoes less common but not impossible";
+            document.form1.likelihood.value = "Tornadoes less common but not impossible.  Uncommon for a tornado stronger than EF3.";
         }
     }
 
@@ -33,11 +33,11 @@ function checkLocation() {
     {
         if(tornadicState.includes(state))
         {
-            document.form1.likelihood.value = "Location likely to experience tornadoes";
+            document.form1.likelihood.value = "Location likely to experience tornadoes.  Potential for full EF range.";
         }
         else 
         {
-            document.form1.likelihood.value = "Tornadoes less common but not impossible";
+            document.form1.likelihood.value = "Tornadoes less common but not impossible.  Uncommon for a tornado stronger than EF3.";
         }
     }
 }
