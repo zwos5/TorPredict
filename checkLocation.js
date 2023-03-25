@@ -33,7 +33,7 @@ function checkLocation() {
     {
         if(tornadicState.includes(state))
         {
-            document.form1.likelihood.value = "Location likely to experience severe tornadoes";
+            document.form1.likelihood.value = "Location likely to experience tornadoes";
         }
         else 
         {
