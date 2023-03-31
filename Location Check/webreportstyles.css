@@ -1,0 +1,30 @@
+body {
+    padding:30px; 
+    font-size:1.2em;
+    background-color: black;
+    color: white;
+    text-align:center;
+}
+
+h1 { 
+    padding:10px; 
+    color:white; 
+    text-align:center;
+}
+
+div {
+    width:700px; 
+    background-color:gray; 
+    padding:5px; 
+    margin:0 0 10px 0;
+    text-align:center;
+}
+
+a {
+    text-decoration:none; 
+    background-color:gray; 
+    color:white; 
+    padding:2.5px; 
+    border-radius:5px;
+    text-align:center;
+}
