@@ -58,6 +58,14 @@ public class Tornadics_AI
 		        else if(weather.equals("Windy")) {
 		            System.out.println("A windy day occurs when air begins moving at a quick rate of speed");
 		        }
+		        else if(weather.equals("Hail")) {
+		            System.out.println("Hail is rain that has frozen up in the atmosphere during a thunderstorm");
+		        }
+		        else if(weather.equals("Hurricane")) {
+		            System.out.println("A hurricane is similar in ways to a tornado. However, hurricanes are characterized" + 
+		            " by a low-pressure center, a closed low-level atmospheric circulation, strong winds, and a spiral" + 
+		            " arrangement of thunderstorms that produce heavy rain and squalls.");
+		        }
 		        else {
 		            System.out.println("Sorry I'm not sure about that");
 		        }
@@ -67,6 +75,19 @@ public class Tornadics_AI
 		    }
 		    else if(input.equals("Do you do anything else besides weather?")) {
 		        System.out.println("Not at this time but maybe in the future");
+		    }
+		    else if(input.equals("Has anyone said thank you?")) {
+		        System.out.println("As a robot I don't look too much into manners" + 
+		        " as long as I know I'm being helpful that's what counts.");
+		    }
+		    else if(input.equals("Thank you") || input.equals("Thank you.") || input.equals("Thank You") || input.equals("Thank You.")) {
+		        System.out.println("You're welcome user, glad I could help.");
+		    }
+		    else if(input.equals("What is the record amount of rainfall?")) {
+		        System.out.println("71.8 inches in on the French island territory of Reunion on January 7-8 1966.");
+		    }
+		    else if(input.equals("What is the record amount of snowfall?")) {
+		        System.out.println("390 inches (32.5 feet) in Tamarack California in January 1911");
 		    }
 		    else {
 		        System.out.println("Sorry I didn't get that.");
