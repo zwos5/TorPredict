@@ -64,6 +64,8 @@ def runPrediction():
     outfile.write('<a href="tornadowebreport.html">Tornado Report</a>')
     outfile.write(' ')
     outfile.write('<a href="checkArea.html">Check Your Local Area</a>')
+    outfile.write(' ')
+    outfile.write('<a href="chatbot.html">Tornadics.ai</a>')
     outfile.write("<html>\n<head>\n<title> \nTornadics Tornado Report \
            </title>\n</head> <body><h1><u>Tornadics Tornado Report</u></h1>\
            \n<h2>Prediction Results:</h2>EFU Tornadoes: ")
