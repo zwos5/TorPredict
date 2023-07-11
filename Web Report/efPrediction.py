@@ -88,6 +88,7 @@ def runPrediction():
     outfile.write("<br><b>Total Reported Tornadoes: ")
     outfile.write(str(tornadototal))
     outfile.write("</body></html>")
+    outfile.close()
     
     print('View a web report at ', outfile)
 
